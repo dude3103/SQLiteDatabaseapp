@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    style="@style/MyTheme"
+    android:background="#ffffffff">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="268dp"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/list"
+                android:layout_width="fill_parent"
+                android:layout_height="460dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:fastScrollEnabled="false"
+                style="@style/MyTheme"
+                android:backgroundTint="@android:color/transparent" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:gravity="right"
+        android:backgroundTint="@android:color/transparent">
+
+        <Button
+            android:id="@+id/add_btn"
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fab"
+            android:clickable="false"
+            android:focusable="false"
+            android:gravity="right" />
+    </LinearLayout>
+
+
+</LinearLayout>

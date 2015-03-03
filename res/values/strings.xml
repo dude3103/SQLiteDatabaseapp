@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dartverein</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="hello_world">Developed by  Sven Krätzer</string>
+    <string name="Dartverein">User Application</string>
+    <string name="add_user">Mitglied hinzufügen</string>
+    <string name="name">Name</string>
+    <string name="dec">Beitrag in €</string>
+    <string name="extra">Bemerkung</string>
+    <string name="view_all">Zur Liste</string>
+    <string name="save_updates">Speichere Update</string>
+    <string name="gesamt">Beiträge gesammt</string>
+    <string name="gesamt1">Beiträge + Sonderzahlungen</string>
+    <string name="back">Zurück</string>
+    <string name="Betrag">Gesamtbetrag in Euro</string>
+    <string name="euro">€</string>
+
+</resources>

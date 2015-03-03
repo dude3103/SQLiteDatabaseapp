@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Color primary 500 from palette colors -->
+    <color name="primary">#bdbdbd</color>
+    <color name="sekundary">#7e7e7e</color>
+</resources>
